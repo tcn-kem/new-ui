@@ -17,21 +17,41 @@ $(document).ready(function() {
 	$('#round-shaped-rice').click(function() {
 		$('#submit-kind').val('round-shaped-rice');
 		$('#submit-kind-text').text('Round Shaped Rice');
+		$('#round-shaped-rice').css({'border-style' : '', 'border-width' : '', 'border-color' : ''});
+		$('#sticky-rice').css({'border-style' : '', 'border-width' : '', 'border-color' : ''});
+		$('#japanese-rice').css({'border-style' : '', 'border-width' : '', 'border-color' : ''});
+		$('#wheat').css({'border-style' : '', 'border-width' : '', 'border-color' : ''});
+		$(this).css({'border-style' : 'solid', 'border-width' : '5px', 'border-color' : '#d4cdbe'});
 	});
 
 	$('#sticky-rice').click(function() {
 		$('#submit-kind').val('sticky-rice');
 		$('#submit-kind-text').text('Sticky Rice');
+		$('#round-shaped-rice').css({'border-style' : '', 'border-width' : '', 'border-color' : ''});
+		$('#sticky-rice').css({'border-style' : '', 'border-width' : '', 'border-color' : ''});
+		$('#japanese-rice').css({'border-style' : '', 'border-width' : '', 'border-color' : ''});
+		$('#wheat').css({'border-style' : '', 'border-width' : '', 'border-color' : ''});
+		$(this).css({'border-style' : 'solid', 'border-width' : '5px', 'border-color' : '#d5e2df'});
 	});
 
 	$('#japanese-rice').click(function() {
 		$('#submit-kind').val('japanese-rice');
 		$('#submit-kind-text').text('Japanese Rice');
+		$('#round-shaped-rice').css({'border-style' : '', 'border-width' : '', 'border-color' : ''});
+		$('#sticky-rice').css({'border-style' : '', 'border-width' : '', 'border-color' : ''});
+		$('#japanese-rice').css({'border-style' : '', 'border-width' : '', 'border-color' : ''});
+		$('#wheat').css({'border-style' : '', 'border-width' : '', 'border-color' : ''});
+		$(this).css({'border-style' : 'solid', 'border-width' : '5px', 'border-color' : '#d9bde5'});
 	});
 
 	$('#wheat').click(function() {
 		$('#submit-kind').val('wheat');
 		$('#submit-kind-text').text('Wheat');
+		$('#round-shaped-rice').css({'border-style' : '', 'border-width' : '', 'border-color' : ''});
+		$('#sticky-rice').css({'border-style' : '', 'border-width' : '', 'border-color' : ''});
+		$('#japanese-rice').css({'border-style' : '', 'border-width' : '', 'border-color' : ''});
+		$('#wheat').css({'border-style' : '', 'border-width' : '', 'border-color' : ''});
+		$(this).css({'border-style' : 'solid', 'border-width' : '5px', 'border-color' : '#bfa9a7'});
 	});
 
    	$('#area-select').select2({
