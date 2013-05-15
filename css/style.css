@@ -152,6 +152,14 @@ header nav ul li a {
 	cursor: pointer;
 }
 
+#kind .kind-title {
+	padding: 20px;
+	font-family: "Gnuolane", sans-serif;
+	font-size: 50px;
+	line-height: 55px;
+	text-align: center;
+}
+
 /* #area */
 
 #area {
