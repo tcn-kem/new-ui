@@ -144,11 +144,13 @@ header nav ul li a {
 	height: 220px;
 	width: 350px;
 	background-color: red;
+	cursor: pointer;
 }
 
 /* #area */
 
 #area {
+	height: 250px;
 	padding: 50px;
 	background-color: #f7f6f8;
 }
@@ -160,12 +162,27 @@ header nav ul li a {
 }
 
 #area h2 {
+	margin-left: 50px;
 	display: inline;
+	text-align: center;
+	font-family: "Gnuolane", sans-serif;
+	color: #6567a5;
+}
+
+#area .span6:last-child {
+	margin-left: 20px;
+}
+
+#area select {
+	margin-top: 7px;
+	width: 350px;
+	height: 250px;	
 }
 
 #area p {
 	text-align: center;
 	display: inline;
+	color: #6567a5;
 }
 
 #area i:hover {
@@ -174,14 +191,33 @@ header nav ul li a {
 
 /* #submit */
 #submit {
+	height: 400px;
 	padding: 50px;
 	background-color: #e6e5e8;
 }
 
+.submittext {
+	margin-left: 50px;
+}
+
 #submit h1 {
 	font-family: "Gnuolane", sans-serif;
-	font-weight: bold;
+	color: #2d72da;
+}
+
+#submit h2 {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-indent: 120px;
+	font-family: "Gnuolane", sans-serif;
+	color: #59a3fc;
+}
+
+#submit p {
 	text-align: center;
+	font-size: 50px;
+	color: #0088cc;
+	cursor: pointer;
 }
 
 footer {
