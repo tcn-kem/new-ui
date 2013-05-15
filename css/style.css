@@ -7,6 +7,11 @@
 	height: 600px;
 }
 
+/* font h1 */
+h1 {
+	font-family: "Gnuolane", sans-serif;
+}
+
 /* introduction (.intro) */
 
 .intro {
@@ -220,13 +225,79 @@ header nav ul li a {
 	cursor: pointer;
 }
 
+/* footer */
+
 footer {
-	height: 200px;
+	height: 150px;
 	background-color: #000000;
 }
 
+footer h5 {
+	font-family: "Gnuolane", sans-serif;
+	color: white;
+}
 
+footer p {
+	color: white;
+	margin: 0;
+}
 
+footer .container {
+	padding: 20px;
+}
 
+/* blur2 */
+#blur2 {
+	background: url(../img/grass-macro-blur-nature.jpg);;
+	height: 100px;
+}
 
+/* result */
+.result {
+	background: #fafafa;
+	padding: 40px;
+}
 
+.result h1 {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+/* rice */
+.rice {
+	padding: 40px;
+}
+
+.rice h1 {
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.rice p {
+	font-size: 20px;
+	line-height: 28px;
+}
+
+.rice img {
+	max-height: 250px;
+	margin: 0 auto 30px auto;
+}
+
+.rice .img-center {
+	margin: 0 auto;
+}
+
+/* edit bootstrap table */
+.table th {
+	text-align: center;
+}
+
+.table {
+	border-radius: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+}
+
+.table-bordered {
+	border-collapse: collapse;
+}
