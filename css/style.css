@@ -272,27 +272,42 @@ footer .container {
 }
 
 /* rice */
+
+#des {
+	background-color: #F7F0E0;
+	padding: 10px;
+}
+
 .rice {
 	padding: 40px;
+	background-color: #f0f0eb;
 }
 
 .rice h1 {
 	margin-bottom: 30px;
 	text-align: center;
+	font-family: "Gnuolane", sans-serif;
+}
+
+.rice strong {
+	font-size: 30px;
+	font-weight: bold;
+	font-family: "Gnuolane", sans-serif;
 }
 
 .rice p {
 	font-size: 20px;
 	line-height: 28px;
+	font-family: "Gnuolane", sans-serif;
 }
 
 .rice img {
 	max-height: 250px;
-	margin: 0 auto 30px auto;
+	margin: 20px auto 50px auto;
 }
 
 .rice .img-center {
-	margin: 0 auto;
+	text-align: center;
 }
 
 /* edit bootstrap table */
