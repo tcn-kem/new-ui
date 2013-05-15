@@ -10,6 +10,10 @@ $(document).ready(function() {
 		 });
 	});
 	
+	$('#logo').click(function() {
+		$('html, body').animate({ scrollTop: 0}, 1000)
+	});
+
 	$('#round-shaped-rice').click(function() {
 		$('#submit-kind').val('round-shaped-rice');
 		$('#submit-kind-text').text('Round Shaped Rice');
